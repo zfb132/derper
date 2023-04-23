@@ -45,7 +45,6 @@ jobs:
       with:
         file: 'Dockerfile'
         platforms: linux/amd64
-        context: derper
         push: true
         tags: |
           whuzfb/derper:latest
